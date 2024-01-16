@@ -7,7 +7,7 @@ on:
       - main
       - 'dev-*'
       - 'feat/**'
-    path-ignore:
+    path:
       - '.github/worlflow/*'
   workflow_dispatch:
 jobs:
